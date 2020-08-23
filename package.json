@@ -1,0 +1,25 @@
+{
+  "name": "mozix",
+  "displayName": "MOZIX",
+  "description": "Inspire by Mozilla Browser dark theme",
+  "version": "0.0.1",
+  "icon": "./themes/images/logo.png",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mozix",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mozix-dark.json"
+      }
+    ]
+  },
+  "extensionPack": [
+    "publisher.extensionName"
+  ]
+}
